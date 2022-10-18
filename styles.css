@@ -3,10 +3,36 @@ h2 {
 }
 h1 {
     color:#9fe75b;
+    z-index:2;
+    position: relative;
+    text-shadow: 2px 2px 2px #c48acb;
+    border-radius: 25px;
+    background: #1f1a2b;
+    width: 50%;
+    margin-left: 25%;
 }
 * {
+    color: aliceblue; 
+    text-align: center;
+}
+
+#bury {
+    width: 100%;
+    margin-left: 0px;
+    border-bottom: #c48acb solid 7px;
+    z-index:1;
+    position: relative;
+    border-radius: 25px;
+    
+
+}
+#cheese {
+    margin: auto;
+     width: 50%;
+     border-bottom: #c48acb solid 7px;
+     display: block;
+     border-radius: 25px;
+}
+body{
     background-color:#141316;
-}
-* {
-    color: aliceblue;
 }
